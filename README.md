@@ -43,3 +43,4 @@ to source code changes. If you encounter a problem you can compare your code to 
 * di-assignment
 * component_scan
 * java_based_configuration
+* xml_configuration
