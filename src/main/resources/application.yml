@@ -1,0 +1,41 @@
+spring:
+  profiles:
+    active: dog,EN
+datauser:
+  username: YmlUsername
+  password: YmlUsername
+  jdbcurl: YmlUrl
+
+
+---
+spring:
+  config:
+    activate:
+      on-profile: prod
+datauser:
+  username: YmlProdUsername
+  password: YmlProdUsername
+  jdbcurl: YmlProdUrl
+
+
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+datauser:
+  username: YmlDevUsername
+  password: YmlDevUsername
+  jdbcurl: YmlDevUrl
+
+
+
+---
+spring:
+  config:
+    activate:
+      on-profile: qa
+datauser:
+  username: YmlQaUsername
+  password: YmlQaUsername
+  jdbcurl: YmlQaUrl
